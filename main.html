@@ -1,44 +1,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>HTML</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
 
-<body style="background-image:url('https://abbtakk.tv/en/wp-content/uploads/2018/04/colors-6.jpg')">
+.active, .collapsible:hover {
+    background-color: #555;
+}
 
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
 
+<h2>Collapsibles</h2>
 
-<h1>Intresting facts about me.</h1>
-<button class="collapsible">Learn The things I love to do!</button>
+<p>A Collapsible:</p>
+<button class="collapsible">Open Collapsible</button>
 <div class="content">
-  <p style = "color:white;">I love to play sports, basketball is my favorite sport to play because I take our my anger lol.My favorite basketball team are Golden State Warriors. I love to dance and sing.</p>
-  <img src="https://usatftw.files.wordpress.com/2017/09/warriors.jpg?w=1000&h=600&crop=1" alt="Girl in a jacket" style="width:140px;height:140px;">
+  <p>Hello my name is Adriana Ramos and I am 17 years old. I am about to be a junior. I go to a school called University Prep Value Highschool. I love to play video games.</p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Stick_Figure.svg/1200px-Stick_Figure.svg.png" alt="Girl in a jacket" style="width:140px;height:140px;">
+</div>
+
+<p>Collapsible Set:</p>
+<button class="collapsible">Open Section 1</button>
+<div class="content">
+  <p>I love to play sports, basketball is my favorite sport to play because I take our my anger lol.My favorite basketball team are Golden State Warriors. I love to dance and sing.</p>
+   <img src="https://usatftw.files.wordpress.com/2017/09/warriors.jpg?w=1000&h=600&crop=1" alt="Girl in a jacket" style="width:140px;height:140px;">
 <img src="https://www.passion4dancing.com/wp-content/uploads/2015/10/Dance-confidence.jpg" alt="Girl in a jacket" style="width:150px;height:250px;">
 <img src="http://szzljy.com/images/singing/singing1.jpg" alt="Girl in a jacket" style="width:230px;height:230px;">
 </div>
-
-<h2> Something else about me</h2>
-<p style="color:white;">I love rollercoasters, I especially love going to six flags. Im in love with the color blue.<a href="https://www.sixflags.com/magicmountain">Six Flags Website</a> I love red pandas they are my favorite animal. I wanna be a game designer when I grow up. I wanna go to UC Berkeley, UCLA, USC, MIT, and Stanford.</p>
-
-<img src="https://signalscv.com/wp-content/uploads/2016/11/01XX_news_six-flags-file_KL_01-copy-e1479318137373.jpg" alt="Girl in a jacket" style="width:130px;height:130px;">
+<button class="collapsible">Things I love 2</button>
+<div class="content">
+  <p>I love rollercoasters, I especially love going to six flags. Im in love with the color blue.<a href="https://www.sixflags.com/magicmountain">Six Flags Website</a> I love red pandas they are my favorite animal. I wanna be a game designer when I grow up. I wanna go to UC Berkeley, UCLA, USC, MIT, and Stanford.</p>
+  <img src="https://signalscv.com/wp-content/uploads/2016/11/01XX_news_six-flags-file_KL_01-copy-e1479318137373.jpg" alt="Girl in a jacket" style="width:130px;height:130px;">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Seal_of_University_of_California%2C_Berkeley.svg/180px-Seal_of_University_of_California%2C_Berkeley.svg.png" alt="Girl in a jacket" style="width:120px;height:120px;">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/The_University_of_California_UCLA.svg/1200px-The_University_of_California_UCLA.svg.png" alt="Girl in a jacket" style="width:120px;height:120px;">
 <img src="http://www-scf.usc.edu/~hwu732/Hao%20Wu_files/usc.jpg" alt="Girl in a jacket" style="width:120px;height:120px;">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-5Ku6Bm06sQIw3-vxrBlC0DbcW1V_-q7GsFvu9_vlI7xIP-997Q" style="width:120px;height:120px;">
-
-<h3> My favorite thing to do</h3>
-<p style="color:white;">I love to fo shopping. My favorite brands are Nike, Adidas,Forever 21, and ect.</p>
-<img src="http://content.nike.com/content/dam/one-nike/globalAssets/social_media_images/nike_swoosh_logo_black.png" style="width:130px;height:130px;">
+</div>
+<button class="collapsible">My Favorite Brands 3</button>
+<div class="content">
+  <p>I love to fo shopping. My favorite brands are Nike, Adidas,Forever 21, and ect.</p>
+  <img src="http://content.nike.com/content/dam/one-nike/globalAssets/social_media_images/nike_swoosh_logo_black.png" style="width:130px;height:130px;">
 <img src="https://pbs.twimg.com/media/DO6y80BXUAAvQ54.jpg" style="width:130px;height:130px;">
 <img src="https://i.forbesimg.com/media/lists/companies/forever-21_416x416.jpg" style="width:130px;height:130px;">
+</div>
 
-
-<h4> Favorite Tv shows</h4>
-<p style="color:white;"> My favorite shows are Greys Anatomy, Criminal Minds, Once Upon A Time, Pretty Little Liars, Big Bang Theory, Friends, The 90's Show, The Original, and Vampire Diary's.My Favorite movie is The Lovley Bones,The Avengers Infinity War, and any type of scary movie.</p>
-<img src="https://images.justwatch.com/poster/40500995/s592" style="width:130px;height:130px;">
+<button class="collapsible">Favorite Shows 4</button>
+<div class="content">
+   <p> My favorite shows are Greys Anatomy, Criminal Minds, Once Upon A Time, Pretty Little Liars, Big Bang Theory, Friends, The 90's Show, The Original, and Vampire Diary's.My Favorite movie is The Lovley Bones,The Avengers Infinity War, and any type of scary movie.</p>
+   <img src="https://images.justwatch.com/poster/40500995/s592" style="width:130px;height:130px;">
 <img src="https://newscdn.weigelbroadcasting.com/rTwKd-1525998483-108871-blog-greys.jpg" style="width:130px;height:130px;">
 <img src="https://imgc.allpostersimages.com/img/print/posters/once-upon-a-time-main-cast_a-G-14297748-0.jpg" style="width:130px;height:130px;">
 <img src="http://toopanda.com/wp-content/uploads/2017/10/PrettyLittleLiars_showtile.png.2017-02-03T14_27_0513_00.jpg" style="width:130px;height:130px;">
 <img src="https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/c/ca/Avengers_Infinity_War_Imax_poster.jpg/revision/latest?cb=20180405170202" style="width:130px;height:130px;">
 
-<p style="font-size:50px;">THE END</p>
-  
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+    });
+}
+</script>
+
+</body>
+</html>
